@@ -10,8 +10,62 @@
 /* nav styles */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
 }
 .nave-title{
     font-weight: 800;
     font-size: 45px;
 }
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#474747;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    }
+    .banner-greetings{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .banner-titles{
+        font-size: 85px;
+        font-weight: bold;
+    }
+    .banner-description{
+        font-size: 18px;
+    }
+    .banner-profile-picture{
+        width: 580px;
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 230px;
+    }
+    .banner-content{
+        max-width: 580px;
+    }
+    .header-image{
+        background-image: url(../images/developer.png), url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+   
